@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fff8f2">
+  <title>Feliz aniversário, Ana  ✨</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap');
+    :root{--ink:#3e3441;--muted:#786c79;--rose:#e78591;--pink:#f8d9db;--cream:#fff8f2;--lilac:#e8def2;--gold:#e8bd78}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font-family:'DM Sans',sans-serif;line-height:1.65;overflow-x:hidden}
+    .grain{position:fixed;inset:0;pointer-events:none;opacity:.12;z-index:5;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.18'/%3E%3C/svg%3E")}
+    .hero{min-height:95vh;display:grid;place-items:center;position:relative;padding:5rem 1.5rem 7rem;text-align:center;background:radial-gradient(ellipse at 50% 40%,#fffdf9 0,#fff8f2 52%,#f8e9eb 100%)}
+    .hero:before,.hero:after{content:'✿';position:absolute;color:#e6b7be;font-size:clamp(5rem,14vw,12rem);opacity:.22;animation:float 7s ease-in-out infinite}.hero:before{left:7%;top:17%;transform:rotate(-18deg)}.hero:after{content:'✧';right:9%;bottom:17%;color:#c9b7d9;animation-delay:-3s}
+    .hero-inner{max-width:760px;position:relative;z-index:1}.eyebrow{letter-spacing:.2em;text-transform:uppercase;font-size:.72rem;font-weight:700;color:#b16d79}.hero h1{font-family:'Playfair Display',serif;font-weight:500;font-size:clamp(3.25rem,9vw,7rem);line-height:.98;margin:1.3rem 0;color:#453748}.hero h1 span{color:var(--rose);font-style:italic}.hero p{max-width:530px;margin:1.4rem auto 2rem;color:var(--muted);font-size:1.08rem}.date-pill{display:inline-flex;gap:.55rem;align-items:center;border:1px solid #ead4d3;background:#fff9f5;padding:.6rem 1rem;border-radius:99px;color:#765f70;font-size:.83rem}.scroll{position:absolute;bottom:2rem;color:#927d8e;font-size:.76rem;letter-spacing:.14em;text-transform:uppercase}
+    section{padding:6rem 1.4rem}.wrap{width:min(960px,100%);margin:auto}.section-tag{color:#bd7784;text-transform:uppercase;font-size:.72rem;letter-spacing:.18em;font-weight:700}.section-title{font:500 clamp(2.1rem,5vw,3.5rem)/1.15 'Playfair Display',serif;margin:.65rem 0 1rem}.intro{text-align:center}.intro .lead{max-width:640px;margin:0 auto;color:var(--muted);font-size:1.05rem}
+    .note-card{background:#fffdfb;border:1px solid #f0e5e2;box-shadow:0 24px 70px #72526410;border-radius:24px;padding:clamp(1.5rem,5vw,3.6rem);margin:3rem auto 0;max-width:740px;position:relative}.note-card:before{content:'♡';position:absolute;right:25px;top:14px;color:#e6a4ae;font-size:2.4rem}.note-card p{color:#665b67;font-size:1.03rem}.note-card .sign{font:italic 1.4rem 'Playfair Display',serif;color:#b36e7d;margin-top:1.7rem}.edit-hint{display:inline-block;margin-top:1.3rem;padding:.45rem .8rem;background:#fff2e7;border-radius:8px;color:#997655;font-size:.76rem}
+    .memories{background:#f6edf4}.memory-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin-top:2.5rem}.memory{min-height:205px;border-radius:20px;padding:1.35rem;display:flex;flex-direction:column;justify-content:space-between;overflow:hidden;position:relative}.memory:nth-child(1){background:#f4dadd}.memory:nth-child(2){background:#e5dff0}.memory:nth-child(3){background:#f2e7ce}.memory .emoji{font-size:2rem}.memory h3{font:500 1.35rem 'Playfair Display',serif;margin:0 0 .35rem}.memory p{font-size:.9rem;color:#625565;margin:0;max-width:240px}.memory:after{content:'✦';position:absolute;right:15px;top:9px;font-size:2rem;opacity:.32}
+    .wishes{text-align:center}.wish-list{display:flex;justify-content:center;flex-wrap:wrap;gap:.7rem;margin:2rem auto;max-width:700px}.wish{padding:.65rem 1rem;border-radius:99px;background:#fff;border:1px solid #f0e4e1;color:#735f70;font-size:.9rem}.wish b{color:#ce8490;margin-right:.35rem}.closing{background:#473a4a;color:#fff9f3;text-align:center;padding:5.5rem 1.5rem 4rem;position:relative;overflow:hidden}.closing:before{content:'✧';position:absolute;left:9%;top:5%;font-size:8rem;color:#cba8cf;opacity:.2}.closing .section-tag{color:#e7b6bd}.closing h2{font:500 clamp(2.5rem,7vw,5rem)/1.06 'Playfair Display',serif;max-width:760px;margin:1rem auto}.closing p{color:#e7dbe6;max-width:530px;margin:1rem auto 2rem}.button{border:0;background:#f0bbc2;color:#493b4a;font:700 .95rem 'DM Sans',sans-serif;padding:.95rem 1.35rem;border-radius:99px;cursor:pointer;box-shadow:0 8px 24px #170e1a30;transition:transform .2s,background .2s}.button:hover{transform:translateY(-3px);background:#f7cbd0}.reveal{display:none;max-width:600px;margin:1.5rem auto 0;padding:1.4rem;border-radius:18px;background:#ffffff12;border:1px solid #ffffff25;color:#fff6f1}.reveal.show{display:block;animation:appear .5s ease}.footer{font-size:.8rem;color:#c9b8c9;margin-top:4rem}.footer span{color:#ec9ba8}
+    @keyframes float{50%{translate:0 -15px;rotate:8deg}}@keyframes appear{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+    @media(max-width:650px){.hero{min-height:88vh}.hero:before{left:-2%;top:10%}.hero:after{right:2%;bottom:12%}section{padding:4.5rem 1.1rem}.memory-grid{grid-template-columns:1fr}.memory{min-height:165px}.note-card{margin-top:2rem}.scroll{bottom:1.2rem}}
+    @media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
+  </style>
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="eyebrow">um dia todinho seu</div>
+      <h1>Feliz aniversário,<br><span>Minha Ratinha</span></h1>
+      <p>Hoje é dia de comemorar com você — e também a sorte que é ter você como amiguinha na minha vidinha.</p>
+      <div class="date-pill">🎂 <span>Para alguém que gosto Muito</span> ✨</div>
+    </div>
+    <div class="scroll">um carinho feito com amizade ↓</div>
+  </header>
+  <main>
+    <section class="intro">
+      <div class="wrap">
+        <div class="section-tag">de coração</div>
+        <h2 class="section-title">Uma amizade que quero para sempre</h2>
+        <p class="lead">Tem gente que chega e, com o tempo, vira parte das melhores lembranças. Você é uma dessas pessoas pra mim.</p>
+        <article class="note-card">
+          <!-- PERSONALIZE: troque o texto abaixo pelas suas palavras e lembranças. -->
+          <p>Ana, feliz aniversário mb! É muito bom ver que já faz 5 anos que te conheci e que, mesmo assim, você continua sendo especial para mim. Obrigado por cada comentário, cada risada e por ser esse ser humano tão especial!</p>
+          <p>Espero que este novo ano a gnt possa ter novas memorias e momentos bons, aventuras boas, sonhos realizados e muitos motivos para sorrir. Você merece tudo de bom no mundo — hoje e para sempre.</p>
+          <p class="sign">Com todo meu Amor, <span>[Eric]</span> ♡</p>
+          <span class="edit-hint">Eu te amo com a Alma</span>
+        </article>
+      </div>
+    </section>
+    <section class="memories">
+      <div class="wrap">
+        <div class="section-tag">nós dois</div>
+        <h2 class="section-title">Pequenos momentos,<br>grandes lembranças</h2>
+        <div class="memory-grid">
+          <article class="memory"><span class="emoji">😂</span><div><h3>Nossas risadas</h3><p>Sempre que a gente conversa, você me faz rir com seu jeitinho inesquecível.</p></div></article>
+          <article class="memory"><span class="emoji">☕</span><div><h3>Presença de verdade</h3><p>Obrigada por estar sempre comigo, nos melhores e nos piores dias.</p></div></article>
+          <article class="memory"><span class="emoji">🌟</span><div><h3>Tudo que ainda vem</h3><p>Que a gente ainda tenha muito tempo para colecionar novos momentos e para eu te dar todo o carinho possível.</p></div></article>
+        </div>
+        <p style="text-align:center;color:#8a7889;font-size:.83rem;margin-top:1.5rem">Ass(Eric/motomoto) ♡</p>
+      </div>
+    </section>
+    <section class="wishes">
+      <div class="wrap">
+        <div class="section-tag">para o seu novo ciclo</div>
+        <h2 class="section-title">Que não falte…</h2>
+        <div class="wish-list">
+          <span class="wish"><b>✦</b> Momentos nossos</span><span class="wish"><b>✦</b> Eu na sua vida</span><span class="wish"><b>✦</b>Lugares para eu te ver</span><span class="wish"><b>✦</b> Abraços demorados</span><span class="wish"><b>✦</b> Motivos para comemorar</span>
+        </div>
+      </div>
+    </section>
+    <section class="closing">
+      <div class="section-tag">Uma ultima mensagem</div>
+      <h2>O Meu mundo fica mais feliz com você nele.</h2>
+      <p>Obrigada por ser sempre minha amiguinha. Que seu dia seja tão especial, feliz e cheio de carinho!</p>
+      <button class="button" id="revealButton" type="button" aria-expanded="false" aria-controls="surprise">Tem mais uma coisinha… ✨</button>
+      <div class="reveal" id="surprise" role="status">Feliz diaaa! Gosto muito de você e quero ver você sempre feliz. Conte comigo para sempre, nos momentos tristes e felizes. Amo te ♡</div>
+      <div class="footer">feito com Muito <span>♥</span> e amizade</div>
+    </section>
+  </main>
+  <script>
+    const button = document.getElementById('revealButton');
+    const surprise = document.getElementById('surprise');
+    button.addEventListener('click', () => {
+      const open = surprise.classList.toggle('show');
+      button.setAttribute('aria-expanded', String(open));
+      button.textContent = open ? 'Guardar esse carinho ♡' : 'Tem mais uma coisinha… ✨';
+    });
+  </script>
+</body>
+</html>
